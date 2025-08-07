@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Te Amo Edisson 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Corazones flotantes -->
+  <div class="floating-hearts" id="heart-container"></div>
+
+  <!-- Contenido principal -->
+  <div class="loader-container">
+    <div class="loader">
+      <div class="bar"></div>
+    </div>
+    <div class="heart">❤️</div>
+    <div class="love-text">Te amo Edisson</div>
+    <div class="poema">
+      <p>En cada latido te pienso,</p>
+      <p>en cada suspiro te siento.</p>
+      <p>Eres mi luz en la distancia,</p>
+      <p>mi razón de amor eterno. ❤️</p>
+    </div>
+  </div>
+
+  <!-- Sorpresa final -->
+  <div class="final-surprise" id="final-surprise" style="display: none;">
+    <h1>Gracias por ser mi todo, Edisson 💖</h1>
+    <p>Tu amor hace que todo valga la pena. 🌹</p>
+    <img src="sorpresa.png" alt="Amor" class="sorpresa-img" />
+    <button onclick="repetirSorpresa()">Volver a ver 💞</button>
+  </div>
+
+  <!-- Música de fondo -->
+  <audio autoplay loop hidden>
+    <source src="cancion.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio HTML5.
+  </audio>
+
+  <!-- Sonido del corazón -->
+  <audio id="heart-sound" src="pop.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
